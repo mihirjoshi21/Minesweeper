@@ -1,0 +1,723 @@
+[
+    {
+        "outputFile": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endColumn": 40,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 48,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 48,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endColumn": 44,
+                    "endOffset": 947
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 668,
+                        "endColumn": 44,
+                        "endOffset": 708
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 952,
+                    "endColumn": 51,
+                    "endOffset": 999
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 713,
+                        "endColumn": 51,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1004,
+                    "endColumn": 46,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 46,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endColumn": 52,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 52,
+                        "endOffset": 953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 56,
+                    "endOffset": 1156
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1012,
+                        "endColumn": 56,
+                        "endOffset": 1064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1161,
+                    "endColumn": 53,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 958,
+                        "endColumn": 53,
+                        "endOffset": 1007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 43,
+                    "endOffset": 1254
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 765,
+                        "endColumn": 43,
+                        "endOffset": 804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1259,
+                    "endColumn": 44,
+                    "endOffset": 1299
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 45,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1304,
+                    "endColumn": 46,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 725,
+                        "endColumn": 47,
+                        "endOffset": 768
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 48,
+                    "endOffset": 1395
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\ids.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 675,
+                        "endColumn": 49,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1400,
+                    "endColumn": 37,
+                    "endOffset": 1433
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 740,
+                        "endColumn": 37,
+                        "endOffset": 773
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1438,
+                    "endColumn": 37,
+                    "endOffset": 1471
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 702,
+                        "endColumn": 37,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1476,
+                    "endColumn": 33,
+                    "endOffset": 1505
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 668,
+                        "endColumn": 33,
+                        "endOffset": 697
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1510,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1947
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 689,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 1126
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1952,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2290
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1494,
+                        "endLine": 40,
+                        "endColumn": 12,
+                        "endOffset": 1832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2295,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2651
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1132,
+                        "endLine": 33,
+                        "endColumn": 12,
+                        "endOffset": 1488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2656,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2810
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2003,
+                        "endLine": 48,
+                        "endColumn": 12,
+                        "endOffset": 2157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2815,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 3044
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 2163,
+                        "endLine": 54,
+                        "endColumn": 12,
+                        "endOffset": 2392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3049,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 3208
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 1838,
+                        "endLine": 44,
+                        "endColumn": 12,
+                        "endOffset": 1997
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3213,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3331
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Pocket Quotations\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 2398,
+                        "endLine": 58,
+                        "endColumn": 12,
+                        "endOffset": 2516
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 48,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endColumn": 44,
+                    "endOffset": 947
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 952,
+                    "endColumn": 51,
+                    "endOffset": 999
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1004,
+                    "endColumn": 46,
+                    "endOffset": 1046
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1051,
+                    "endColumn": 52,
+                    "endOffset": 1099
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1104,
+                    "endColumn": 56,
+                    "endOffset": 1156
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1161,
+                    "endColumn": 53,
+                    "endOffset": 1210
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1215,
+                    "endColumn": 43,
+                    "endOffset": 1254
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1259,
+                    "endColumn": 44,
+                    "endOffset": 1299
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1304,
+                    "endColumn": 46,
+                    "endOffset": 1346
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1351,
+                    "endColumn": 48,
+                    "endOffset": 1395
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\ids.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1400,
+                    "endColumn": 37,
+                    "endOffset": 1433
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1438,
+                    "endColumn": 37,
+                    "endOffset": 1471
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1476,
+                    "endColumn": 33,
+                    "endOffset": 1505
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1510,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1944
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 689,
+                        "endLine": 26,
+                        "endColumn": 12,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1949,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 2287
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2292,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 2648
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2653,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2807
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2812,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 3041
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3046,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 3205
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3210,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 3328
+                },
+                "from": {
+                    "file": "C:\\Users\\mj\\AndroidStudioProjects\\Assignment2\\showcaseview\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

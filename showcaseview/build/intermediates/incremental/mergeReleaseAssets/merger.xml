@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\mj\AndroidStudioProjects\Assignment2\showcaseview\src\main\assets"/><source path="C:\Users\mj\AndroidStudioProjects\Assignment2\showcaseview\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\mj\AndroidStudioProjects\Assignment2\showcaseview\src\release\assets"/></dataSet></merger>

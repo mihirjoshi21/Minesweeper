@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme_Dark" parent="@style/Theme.AppCompat">
+        <item name="actionModeStyle">@style/Dark_ActionMode</item>
+        <item name="android:actionModeStyle">@style/Dark_ActionMode</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:actionModeBackground">@color/color_primary_dark</item>
+        <item name="actionModeBackground">@color/color_primary_dark</item>
+    </style>
+
+    <style name="Dark_ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/color_primary_dark</item>
+        <item name="background">@color/color_primary_dark</item>
+        <item name="android:backgroundSplit">?android:attr/actionModeSplitBackground</item>
+        <item name="android:height">?android:attr/actionBarSize</item>
+        <item name="android:actionModeBackground">@color/color_primary_dark</item>
+        <item name="actionModeBackground">@color/color_primary_dark</item>
+    </style>
+
+    <style name="CustomShowcaseTheme" parent="ShowcaseView">
+        <item name="sv_backgroundColor">#AA000000</item>
+        <item name="sv_showcaseColor">@android:color/white</item>
+        <item name="sv_titleTextAppearance">@style/SvTitle</item>
+        <item name="sv_tintButtonColor">true</item>
+    </style>
+
+    <style name="SvTitle" parent="TextAppearance.ShowcaseView.Title">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">serif</item>
+    </style>
+</resources>

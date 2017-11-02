@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:summary="@string/pref_title_display"
+        android:title="@string/pref_title_display">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_sound"
+            android:summary="@string/pref_description_sound"
+            android:title="@string/pref_title_sound" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_vibrate"
+            android:summary="@string/pref_description_vibrate"
+            android:title="@string/pref_title_vibrate" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_difficulty_list_titles"
+            android:entryValues="@array/pref_difficulty_list_values"
+            android:key="pref_difficulty"
+            android:title="@string/pref_title_difficult" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="@string/pref_title_about"
+        android:title="@string/pref_title_about">
+
+        <Preference
+            android:key="pref_open_source"
+            android:summary="@string/pref_summary_open_source"
+            android:title="@string/pref_title_open_source" />
+
+        <Preference
+            android:key="pref_disclaimer"
+            android:title="@string/pref_title_disclaimer" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
