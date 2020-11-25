@@ -5,14 +5,15 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.os.Vibrator;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 import com.conem.app.assignment2.R;
 import com.conem.app.assignment2.adapter.GridAdapter;
@@ -24,9 +25,10 @@ import com.github.amlcurran.showcaseview.targets.ViewTarget;
 
 import java.util.Locale;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
 import static com.conem.app.assignment2.screens.SettingsActivity.DIFFICULTY_CHANGED;
 import static com.conem.app.assignment2.util.MinesUtil.COLUMN;
 import static com.conem.app.assignment2.util.MinesUtil.ROW;
@@ -42,19 +44,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final long SHOW_CASE_ONE = 22;
 
     AppCompatActivity mActivity;
-    @Bind(R.id.grid)
+    @BindView(R.id.grid)
     GridView mMinesGrid;
-    @Bind(R.id.text_timer)
+    @BindView(R.id.text_timer)
     TextView mTextTimer;
-    @Bind(R.id.text_flag)
+    @BindView(R.id.text_flag)
     TextView mTextFlag;
-    @Bind(R.id.image_smile)
+    @BindView(R.id.image_smile)
     ImageView mImageSmile;
-    @Bind(R.id.image_settings)
+    @BindView(R.id.image_settings)
     ImageView mImageSettings;
-    @Bind(R.id.text_won_lost)
+    @BindView(R.id.text_won_lost)
     TextView mTextWon;
-    @Bind(R.id.text_best)
+    @BindView(R.id.text_best)
     TextView mTextBest;
 
     private int mCounter = 0;
@@ -67,13 +69,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private MediaPlayer mMediaPlayer;
     private MediaPlayer mMediaPlayerEffect;
     private ShowcaseView mShowcaseView;
+    private Unbinder mUnbinder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mActivity = this;
-        ButterKnife.bind(mActivity);
+        mUnbinder = ButterKnife.bind(mActivity);
 
         mMediaPlayer = MediaPlayer.create(mActivity, R.raw.a_night_of_dizzy_spell);
         mMediaPlayer.setVolume(ProjectUtil.volume(VOLUME), ProjectUtil.volume(VOLUME));
@@ -148,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onDestroy() {
         super.onDestroy();
         countDownTimer.cancel();
-        ButterKnife.unbind(mActivity);
+        mUnbinder.unbind();
         mMediaPlayer.release();
     }
 

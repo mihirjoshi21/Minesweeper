@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Assignment2.iml" filepath="$PROJECT_DIR$/Assignment2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/showcaseview/showcaseview.iml" filepath="$PROJECT_DIR$/showcaseview/showcaseview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minesweeper-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Minesweeper-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Minesweeper-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Minesweeper-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/showcaseview/Minesweeper-master.showcaseview.iml" filepath="$PROJECT_DIR$/.idea/modules/showcaseview/Minesweeper-master.showcaseview.iml" />
     </modules>
   </component>
 </project>

@@ -25,9 +25,7 @@ import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
-import android.support.annotation.IntDef;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewCompat;
+
 import android.text.Layout;
 import android.text.TextPaint;
 import android.text.TextUtils;
@@ -38,6 +36,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RelativeLayout;
+
+import androidx.annotation.IntDef;
+import androidx.core.content.ContextCompat;
+import androidx.core.view.ViewCompat;
 
 import com.github.amlcurran.showcaseview.targets.Target;
 

@@ -18,7 +18,7 @@ package com.github.amlcurran.showcaseview;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
-import android.support.annotation.ColorInt;
+import androidx.annotation.ColorInt;
 
 /**
  * Class to implement your own drawing of a showcase view, should you want more

@@ -3,11 +3,23 @@
 buildscript {
     repositories {
         jcenter()
+        google()
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.3'
-        classpath 'me.tatarka:gradle-retrolambda:3.6.0'
 
+    ext{
+        kotlin_version = '1.4.10'
+        version_coroutines = '1.2.2'
+        version_room = "2.1.0"
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.0'
+        classpath 'com.google.gms:google-services:4.3.4'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.4.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -19,9 +31,13 @@ allprojects {
         maven {
             url "https://maven.google.com"
         }
+        /*maven {
+            url "s3://repository.cuebiq.com/repository/releases"
+            credentials(AwsCredentials) {
+                accessKey "AKIAILPGGFJJXWXZR4VA"
+                secretKey "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"
+            }
+        }*/
+        google()
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }
