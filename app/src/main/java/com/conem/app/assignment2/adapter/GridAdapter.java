@@ -150,6 +150,10 @@ public class GridAdapter extends BaseAdapter {
                         minesModel.shownArray[i][j] = minesModel.hiddenArray[i][j] == NOT_SHOWN_BLOCK ? EMPTY_BLOCK :
                                 minesModel.hiddenArray[i][j];
                     }
+                } else if (minesModel.isWon) {
+                    if (minesModel.hiddenArray[i][j] == BOMB_BLOCK) {
+                        minesModel.shownArray[i][j] = FLAG_BLOCK;
+                    }
                 }
                 mMines[k] = minesModel.shownArray[i][j];
                 k++;

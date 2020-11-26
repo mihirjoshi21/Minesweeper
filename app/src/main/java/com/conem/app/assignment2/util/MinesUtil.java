@@ -21,8 +21,8 @@ public class MinesUtil {
     public static final int COLUMN = 9;
     public static final int GRID_SIZE = ROW * COLUMN;
     private static final float TEN = .1f;
-    private static final float THIRTY = .3f;
-    private static final float FIFTY = .5f;
+    private static final float THIRTY = .15f;
+    private static final float FIFTY = .2f;
 
     public static final int NOT_SHOWN_BLOCK = 0;
     public static final int EMPTY_BLOCK = -2;
@@ -106,10 +106,8 @@ public class MinesUtil {
      * @param difficulty difficulty level
      * @return number of squares with mines
      */
-    private static int numberOfMines(Difficulty difficulty) {
+    public static int numberOfMines(Difficulty difficulty) {
         switch (difficulty) {
-            case BEGINNER:
-                return (int) (TEN * GRID_SIZE);
             case INTERMEDIATE:
                 return (int) (THIRTY * GRID_SIZE);
             case ADVANCED:

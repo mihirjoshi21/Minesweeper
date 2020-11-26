@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Screen According Dimensions -->
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="button_margin_bottom">50dp</dimen>
+    <dimen name="text_padding">20dp</dimen>
+    <dimen name="action_bar_offset">52dp</dimen>
+    <dimen name="showcase_radius">76dp</dimen>
+    <dimen name="showcase_radius_inner">78dp</dimen>
+    <dimen name="showcase_radius_outer">100dp</dimen>
+    <dimen name="showcase_radius_material">39dip</dimen>
+</resources>

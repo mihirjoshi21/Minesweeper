@@ -29,8 +29,10 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+
 import static com.conem.app.assignment2.screens.SettingsActivity.DIFFICULTY_CHANGED;
 import static com.conem.app.assignment2.util.MinesUtil.COLUMN;
+import static com.conem.app.assignment2.util.MinesUtil.Mines;
 import static com.conem.app.assignment2.util.MinesUtil.ROW;
 import static com.conem.app.assignment2.util.ProjectUtil.playSound;
 
@@ -117,7 +119,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (mMinesModel.minesDiscovered) {
                 countDownTimer.cancel();
                 mTextWon.setText(getString(R.string.text_lost));
-            } else if (mMinesModel.itemsShowing == MinesUtil.GRID_SIZE) {
+            } else if (mMinesModel.itemsShowing == MinesUtil.GRID_SIZE ||
+                    mMinesModel.itemsShowing +
+                            MinesUtil.numberOfMines(mMinesModel.minesDifficulty) == MinesUtil.GRID_SIZE) {
+                mMinesModel.isWon = true;
+                mGridAdapter.notifyDataSetChanged(mMinesModel);
                 showWinning();
             }
         });
@@ -133,7 +139,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     position % COLUMN, true);
             mGridAdapter.notifyDataSetChanged(mMinesModel);
             mTextFlag.setText(String.valueOf(mMinesModel.flagsCount));
-            if (mMinesModel.itemsShowing == MinesUtil.GRID_SIZE) {
+            if (mMinesModel.itemsShowing == MinesUtil.GRID_SIZE ||
+                    mMinesModel.itemsShowing + MinesUtil.numberOfMines(mMinesModel.minesDifficulty)
+                            == MinesUtil.GRID_SIZE) {
+                mMinesModel.isWon = true;
+                mGridAdapter.notifyDataSetChanged(mMinesModel);
                 showWinning();
             }
             return true;

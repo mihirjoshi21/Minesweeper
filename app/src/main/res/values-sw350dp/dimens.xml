@@ -1,0 +1,5 @@
+<resources>
+
+    <!-- Screen According Dimensions -->
+    <dimen name="textsize_word">21sp</dimen>
+</resources>

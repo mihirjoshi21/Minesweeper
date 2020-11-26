@@ -15,6 +15,7 @@ public class MinesModel {
     public int flagsCount;
     public int itemsShowing;
     public boolean minesDiscovered;
+    public boolean isWon;
     public int minesDiscoveredRow;
     public int getMinesDiscoveredColumn;
 }
